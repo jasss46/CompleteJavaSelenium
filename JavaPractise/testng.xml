@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping Suite">
+    <test verbose="2" preserve-order="true" name="D:/Zoom/JavaPractise/src/test/java/GroupingUnderstanding">
+
+<groups>
+    <run>
+        <!--include name="Sanity"/>-->
+        <include name="Functional"/>
+        <!--exclude name="Regression"/>-->
+    </run>
+</groups>
+
+        <classes>
+            <class name="GroupingUnderstanding.Logins"/>
+            <class name="GroupingUnderstanding.SignUpTests"/>
+            <class name="GroupingUnderstanding.PaymentTests"/>
+        </classes>
+       
+
+    </test>
+</suite>
